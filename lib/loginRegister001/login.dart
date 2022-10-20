@@ -52,6 +52,12 @@ class _myLoginState extends State<myLogin> {
                   ),
                   child: Column(
                     children: [
+                      Image.network(
+                        'https://flutter-examples.com/wp-content/uploads/2021/01/happy_mothers_Day.gif',
+                        width: 300,
+                        height: 400,
+                        //fit: BoxFit.contain,
+                      ),
                       TextField(
                         decoration: InputDecoration(
                           labelText: 'Email',
